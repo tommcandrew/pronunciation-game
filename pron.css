@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#everything-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#right-div {
+    height: 100vh;
+    width: 80%;
+    background-color: #ffeeed;
+}
+
+#instruction-div {
+    width: 70%;
+    margin: auto;
+    padding: 1.5%;
+    font-size: 1.25rem;
+    margin-top: 3%;
+}
+
+#word-div-container {
+    min-height: 10%;
+}
+
+#word-div, #answer-word-div {
+    width: 100%;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 0;
+    padding: 0.5%;
+}
+
+#input-div {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 1%;
+}
+
+#text-input {
+    height: 8%;
+    width: 100%;
+    padding: 1.5%;
+    font-size: 1.25rem;
+}
+
+#button-div {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#new-div {
+    min-width: 20%;
+    height: 100vh;
+    background-color: #ff6e63;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#check-button {
+    font-size: 1.25rem;
+    padding: 5%;
+    border-radius: 5px;
+    background-color: #73bbff;
+}
+
+#check-button:hover {
+    background-color: #2696ff;
+}
+
+#check-button {
+    margin-top: 4%;
+}
+
+#new-button:hover {
+    background-color: #2696ff;
+}
+
+#viewing-div {
+    margin-top: 15%;
+}
+
+#viewing-button, #answer-button {
+    font-size: 1.25rem;
+    background-color: #ffe7e6;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+#viewing-button {
+    margin-bottom: 7px;
+}
+
+#audio-div {
+    padding-top: 20px;
+    width: 90%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+audio {
+    width: 90%;
+}
+
+.key {
+    font-size: 1.6rem;
+    padding: 1%;
+    min-width: 8%;
+    margin: 0.75%;
+    border-radius: 5px;
+    background-color: #ffe7e6;
+}
+
+.key:hover {
+    background-color: #9499a1;
+}
+
+#keyboard-area {
+    background-color: #ff6e63;
+    width: 60%;
+    margin: auto;
+    padding: 1.5%;
+    display: flex-inline;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+#keys-area {
+    width: 100%;
+}
+
+.selected {
+    background-color: #9499a1;
+}
+
+#score-div {
+    font-size: 2rem;
+    width: 70%;
+    text-align: center;
+    margin-top: 40%;
+}
+
+#lives-div {
+    bottom: 12%;
+    font-size: 2rem;
+    width: 70%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+  }
+  
+  .modal-content {
+    margin: 15% auto; 
+    padding: 2%;
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 10px;
+    background-color: #dc82ff; 
+    width: 20%;  
+    opacity: 0.8;
+  }
+
+  #word-counter {
+      font-size: 3rem;
+      margin-top: 12%;
+      width: 70%;
+      text-align: center;
+    }

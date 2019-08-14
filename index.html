@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Pron Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="pron.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div id="everything-div">
+        <div id="new-div">
+            <div id="word-counter"></div>
+            <div id="audio-div" style="display: none">
+                    <audio controls></audio>
+            </div>
+
+            <audio src="correct.mp3" type="audio/mp3" id="correct-sound"></audio>
+            <audio src="incorrect.mp3" type="audio/mp3" id="incorrect-sound"></audio>
+
+
+            <div id="viewing-div" style="display: none">
+                    <button type="button" id="viewing-button">See word</button>
+            </div>
+            <div id="word-div-container">
+                <div id="word-div" style="visibility: hidden"></div>
+            </div>
+
+            <div id="answer-div" style="display: none">
+                    <button type="button" id="answer-button">See answer</button>
+            </div>
+            <div id="answer-word-div" style="visibility: hidden"></div>
+            <div id="score-div"></div>
+            <div id="lives-div">
+                <i class="fa fa-heart" id="heart0" aria-hidden="true"></i>
+                <i class="fa fa-heart" id="heart1" aria-hidden="true"></i>
+                <i class="fa fa-heart" id="heart2" aria-hidden="true"></i>
+            </div>
+
+        </div>
+
+        <div id="right-div">
+
+            <div id="instruction-div">Using the IPA symbols, type the pronunciation of the word. If there is more than one syllable, don't forget to indicate where the stress is using the apostrophe ('). </div>
+            
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <p id="modal-paragraph"></p>
+
+                </div>
+        
+                </div>
+
+            <div id="input-div">
+                <input type="text" id="text-input"></input>
+            </div>
+            <div id="button-div">
+                <button type="button" id="check-button">Check</button>
+            </div>
+            <div id="keyboard-area">
+                <div id="keys-area">
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="pron.js"></script>
+</body>
