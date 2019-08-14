@@ -584,16 +584,17 @@ $(document).ready(function() {
     const correctMessages = [
         'Well done!',
         'Great job!',
-        'You rock!',
+        'You\'re good at this!',
         'Awesome!',
-        'Amazing!'
+        'Excellent!!'
     ]
 
     const incorrectMessages = [
         'Wrong!',
         'Bad luck!',
         'I\'m afraid not!',
-        'Incorrect!'
+        'Incorrect!',
+        'Nope!'
     ]
 
     function correctAlert() {
